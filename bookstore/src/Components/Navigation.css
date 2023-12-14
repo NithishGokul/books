@@ -1,0 +1,30 @@
+/* Navigation.css */
+
+nav {
+    background-color: #c56666;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  Link {
+    text-decoration: none;
+    color: rgb(158, 150, 150);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  Link:hover {
+    background-color: #555;
+  }
+  
